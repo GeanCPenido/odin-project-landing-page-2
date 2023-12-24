@@ -1,0 +1,137 @@
+body {
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: roboto;
+}
+
+header {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1F2937;
+    min-width: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.logo {
+    margin: 20px;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+li {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
+
+li img {
+    width: 200px;
+}
+
+li p {
+    color: #1F2937;
+}
+
+.intro {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 20px;
+}
+
+.introText {
+    max-width: 30%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.info {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;   
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quoteBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quoteFrase {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotee {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 0%;
+}
+
+.action {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #3882F6;
+    margin: auto;
+    padding: 20px 100px;
+}
+
+.actionButton {
+    margin: 50px;
+}
+
+footer {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
