@@ -41,13 +41,14 @@ a {
 }
 
 img {
-   height: auto; 
+   height: auto;
 }
 
 li img {
     width: 200px;
     border-radius: 50%;
 }
+
 
 li p {
     color: #1F2937;
