@@ -31,7 +31,7 @@ ul {
 
 li {
     margin: 20px;
-    max-width: 20%;
+    max-width: 45%;
     text-align: center;
 }
 
@@ -45,7 +45,7 @@ img {
 }
 
 li img {
-    width: 200px;
+    width: 300px;
     border-radius: 50%;
 }
 
