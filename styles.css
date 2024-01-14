@@ -19,6 +19,7 @@ header {
 .logo {
     margin: 20px;
     width: 75px;
+    border-radius: 50%;
 }
 
 ul {
@@ -44,7 +45,6 @@ a {
 img {
    height: auto;
    width: 400px;
-   border-radius: 50%;
 }
 
 li img {
